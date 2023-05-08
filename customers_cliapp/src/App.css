@@ -1,0 +1,105 @@
+
+.App-header {
+  background-color: #002D73;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.App-link {
+  color: white;
+}
+
+.customers {
+  width: 70%;
+  /* margin: 0 auto; */
+  padding: 10px;
+  padding-left: 125px;
+  max-width: 900px;
+  float: left;
+}
+
+.searchdiv{
+  width: 20%;
+  float: left;
+}
+.customer h2{
+ margin-bottom: 0px;
+}
+
+.showOrders-btn {
+  width: 100px;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: #199319;
+}
+
+.showOrders-btn a{
+  
+    background-color: #199319;
+    color: white;
+  
+  
+}
+.orders{
+  background-color: aliceblue;
+  margin-top: 5px;
+    padding: 5px;
+
+}
+.order{
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+.order div{
+  float: left;
+  margin-right: 20px;
+
+}
+.search {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  margin: 10px;
+}
+.searchbtn {
+  height: 30px;
+  margin-top: 20px;
+  /* margin-left: 10px; */
+  width: 120px;
+  background-color: #002d73;
+  padding: 5px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.searchCustomer,.searchOrder {
+  height: 30px;
+  position: relative;
+  border: 2px solid #cdcdcd;
+  border-color: rgba(0, 0, 0, .14);
+  background-color: AliceBlue;
+  font-size: 14px;
+}
+img{
+  height: 100px;
+  padding: 5px;
+}
+
+.searchformfield{
+padding: 5px;
+}
+
+  .search .customer {
+    padding-top: 15px;
+    margin: 10px;
+    color: white;
+    background-color:black;
+}
+

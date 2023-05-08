@@ -1,0 +1,134 @@
+[
+    {
+       
+            "ID": "100",
+            "Name": "Northwind",
+            "Address": "3860 Dogwood Road,Phoenix, Arizona,85016",
+            "Orders": [
+                {
+                    "OrderId": "50",
+                    "ItemID": "1",
+                    "ItemValue": "345",
+                    "OrderDate": "12/11/2022",
+                    "Quanity": "1",
+                    "Total": "345"
+                },
+                {
+                    "OrderId": "51",
+                    "ItemID": "2",
+                    "ItemValue": "30",
+                    "OrderDate": "1/11/2023",
+                    "Quanity": "2",
+                    "Total": "60"
+                },
+                {
+                    "OrderId": "52",
+                    "ItemID": "3",
+                    "ItemValue": "50",
+                    "OrderDate": "12/1/2022",
+                    "Quanity": "1",
+                    "Total": "50"
+                }
+            ]
+        
+    },
+    {
+       
+            "ID": "101",
+            "Name": "Contoso",
+            "Address": "4 Second Avenue,San Mateo,CA,94401",
+            "Orders":[
+                {
+                    "OrderId": "53",
+                    "ItemID": "4",
+                    "ItemValue": "105",
+                    "OrderDate": "1/11/2023",
+                    "Quanity": "1",
+                    "Total": "105"
+                },
+                {
+                    "OrderId": "54",
+                    "ItemID": "5",
+                    "ItemValue": "300",
+                    "OrderDate": "2/11/2023",
+                    "Quanity": "1",
+                    "Total": "300"
+                },
+                {
+                    "OrderId": "55",
+                    "ItemID": "6",
+                    "ItemValue": "500",
+                    "OrderDate": "3/17/2023",
+                    "Quanity": "2",
+                    "Total": "1000"
+                }
+            ]
+        
+    },
+    {
+       
+            "ID": "102",
+            "Name": "Acme Corporation",
+            "Address": "2013 Avenue ,Suite 100,Jersy city,NJ,07306",
+            "Orders": [
+                {
+                    "OrderId": "56",
+                    "ItemID": "7",
+                    "ItemValue": "345",
+                    "OrderDate": "1/1/2023",
+                    "Quanity": "1",
+                    "Total": "345"
+                },
+                {
+                    "OrderId": "57",
+                    "ItemID": "8",
+                    "ItemValue": "70",
+                    "OrderDate": "2/11/2023",
+                    "Quanity": "2",
+                    "Total": "140"
+                },
+                {
+                    "OrderId": "58",
+                    "ItemID": "9",
+                    "ItemValue": "50",
+                    "OrderDate": "4/4/2023",
+                    "Quanity": "1",
+                    "Total": "50"
+                }
+            ]
+        
+    },
+    {
+       
+            "ID": "103",
+            "Name": "AIRBORNE SYSTEMS LTD",
+            "Address": "42 Main St Unit 5A-B,Brooklyn, NY 11201",
+            "Orders":[
+                {
+                    "OrderId": "59",
+                    "ItemID": "10",
+                    "ItemValue": "75",
+                    "OrderDate": "1/10/2023",
+                    "Quanity": "1",
+                    "Total": "75"
+                },
+                {
+                    "OrderId": "60",
+                    "ItemID": "11",
+                    "ItemValue": "1000",
+                    "OrderDate": "2/11/2023",
+                    "Quanity": "1",
+                    "Total": "1000"
+                },
+                {
+                    "OrderId": "61",
+                    "ItemID": "9",
+                    "ItemValue": "250",
+                    "OrderDate": "4/4/2023",
+                    "Quanity": "2",
+                    "Total": "500"
+                }
+            ]
+        }
+    
+]
