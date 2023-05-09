@@ -1,17 +1,25 @@
 # Assignment5_Docker_RestfulApi
 
-For this assignement 2 apps are created using nodejs. 
+For this assignement 2 apps are created using nodejs. Solution contain 2 folders apiapp which is the apiendpoint for 
  1. Api app is created using nodejs. CustomerOrders.json file is used as the database for customer orders.
  2. Client App is created using reactjs
  
  Both the apps are dockerized. Screencast shows api app running on port 8081 and the client app running on 8082.
  
- docker commands used to build and run a container for api app and client app  
- docker build  -t customers_cliapp .  
-docker run -it -p 8082:8082 customers_cliapp   
+ ## Running the apps
 
-docker build  -t customers_orders_api .  
-docker run -p 8081:8081 customers_orders_api
+- Clone this repository 
+- From your command line, change your current directory to the directory containing apiapp 
+- in the command line run:
+  - docker build  -t customers_orders_api .  
+  - docker run -p 8081:8081 customers_orders_api
+  - This should create the docker image and run the container for apiapp on port 8081
+
+- Change the directory to customers_cliapp and in the command line run:
+  - docker build  -t customers_cliapp . 
+  - docker run -it -p 8082:8082 customers_cliapp 
+  - This should create the docker image and run the container for client app  on port 8082
+  
 
 Api app has four routes   
  
