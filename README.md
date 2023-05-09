@@ -1,6 +1,6 @@
 # Assignment5_Docker_RestfulApi
 
-For this assignement 2 apps are created using nodejs. Solution contain 2 folders apiapp which is the apiendpoint for 
+For this assignement 2 apps are created using nodejs. Solution contain 2 folders apiapp and customers_cliapp
  1. Api app is created using nodejs. CustomerOrders.json file is used as the database for customer orders.
  2. Client App is created using reactjs
  
